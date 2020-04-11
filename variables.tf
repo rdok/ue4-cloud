@@ -1,7 +1,6 @@
 variable "name" {
   default = "ue4-cloud"
   type = string
-  description = "Used for tagging resources"
 }
 
 variable "region" {
