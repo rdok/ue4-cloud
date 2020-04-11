@@ -1,5 +1,5 @@
 variable "name" {
-  default = "ue4-cloud"
+  default = "ue4-cloud_develop"
   type = string
 }
 
