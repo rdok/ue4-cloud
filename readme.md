@@ -8,3 +8,15 @@ UnrealEngine4 cloud environment ideal for fast and cheap solutions to building C
 - And this ue4 cloud compiles the HTML5 build
 - And it stores the build to an s3 bucket
 - And then the github action destroys the aws resources
+
+### WIP Usage
+```
+terraform init
+terraform apply
+
+terraform destroy
+
+# TODO: pass commit hash to terraform? wait for build? 
+# TODO: use s3 bucket event to apply terraform? 
+# TODO: destroy build if it taking longer than 10 minutes? 
+```
