@@ -9,6 +9,12 @@ UnrealEngine4 cloud environment ideal for fast and cheap solutions to building C
 - And it stores the build to an s3 bucket
 - And then the github action destroys the aws resources
 
+### Infrastructure
+```
+terraform graph | dot -Tsvg > graph.svg
+```
+![Graph](graph.svg)
+
 ### WIP Usage
 ```
 terraform init
